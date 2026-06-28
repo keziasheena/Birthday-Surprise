@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Untuk Cintaku ❤️</title>
+  <meta name="description" content="Selamat Ulang Tahun, Sayang." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ─── SCREEN 0: Gift Box ─── -->
+  <section id="screen-gift" class="screen active">
+    <div id="goldDust"></div>
+    <div class="gift-scene" id="giftScene" onclick="openGift()">
+      <div class="gift-glow"></div>
+      <div class="gift-box">
+        <div class="gift-lid" id="giftLid">
+          <div class="bow">
+            <div class="bow-loop bow-left"></div>
+            <div class="bow-loop bow-right"></div>
+            <div class="bow-knot"></div>
+          </div>
+          <div class="ribbon ribbon-lid-h"></div>
+        </div>
+        <div class="gift-body">
+          <div class="ribbon ribbon-body-v"></div>
+        </div>
+      </div>
+      <div class="light-burst" id="lightBurst"></div>
+    </div>
+    <p class="gift-hint">Ketuk untuk membuka hadiahmu, Sayang</p>
+  </section>
+
+  <!-- ─── SCREEN 1: Intro ─── -->
+  <section id="screen-intro" class="screen">
+    <div class="hearts-layer" id="heartsLayer"></div>
+    <div class="intro-content">
+      <p class="intro-label">Untuk Cintaku,</p>
+      <h1 class="intro-name" id="husbandName">Sayangku</h1>
+      <div class="gold-line"></div>
+      <p class="intro-tagline">Kamu adalah alasan aku percaya pada keajaiban cinta.</p>
+    </div>
+    <button class="btn-next" onclick="goTo('screen-gallery')">
+      Lihat Kenangan Kita &darr;
+    </button>
+  </section>
+
+  <!-- ─── SCREEN 2: Gallery Slider ─── -->
+  <section id="screen-gallery" class="screen">
+    <div class="screen-inner">
+      <h2 class="section-title">Kenangan Indah Kita</h2>
+      <div class="slider-wrap" id="sliderWrap">
+        <div class="slider-track" id="sliderTrack">
+          <div class="slide">
+            <img src="https://picsum.photos/seed/romance1/700/460" alt="Kenangan 1" loading="lazy" />
+            <p class="slide-caption">Saat pertama kali aku melihat senyummu...</p>
+          </div>
+          <div class="slide">
+            <img src="https://picsum.photos/seed/romance2/700/460" alt="Kenangan 2" loading="lazy" />
+            <p class="slide-caption">Tempat favorit kita yang selalu kurindukan...</p>
+          </div>
+          <div class="slide">
+            <img src="https://picsum.photos/seed/romance3/700/460" alt="Kenangan 3" loading="lazy" />
+            <p class="slide-caption">Di sinilah aku tahu, kamu adalah jawaban doaku...</p>
+          </div>
+          <div class="slide">
+            <img src="https://picsum.photos/seed/romance4/700/460" alt="Kenangan 4" loading="lazy" />
+            <p class="slide-caption">Setiap momen bersamamu adalah anugerah terindah...</p>
+          </div>
+          <div class="slide">
+            <img src="https://picsum.photos/seed/romance5/700/460" alt="Kenangan 5" loading="lazy" />
+            <p class="slide-caption">Perjalanan panjang kita yang tak terlupakan...</p>
+          </div>
+          <div class="slide">
+            <img src="https://picsum.photos/seed/romance6/700/460" alt="Kenangan 6" loading="lazy" />
+            <p class="slide-caption">Bersamamu, hidupku menjadi lengkap.</p>
+          </div>
+        </div>
+        <button class="slider-arrow arrow-prev" onclick="moveSlide(-1)">&#8249;</button>
+        <button class="slider-arrow arrow-next" onclick="moveSlide(1)">&#8250;</button>
+      </div>
+      <div class="slider-dots" id="sliderDots"></div>
+      <button class="btn-next" onclick="goTo('screen-letter')">Baca Surat Cintaku &darr;</button>
+    </div>
+  </section>
+
+  <!-- ─── SCREEN 3: Love Letter ─── -->
+  <section id="screen-letter" class="screen">
+    <div class="screen-inner">
+      <h2 class="section-title">Surat Cintaku Untukmu</h2>
+      <div class="letter-paper">
+        <p class="letter-date">27 Juni 2026</p>
+
+        <p>Sayangku yang terkasih,</p>
+
+        <p>Jika ada satu hal yang ingin aku syukuri setiap hari dalam hidupku, itu adalah kenyataan bahwa aku menemukan kamu. Bukan karena kebetulan semata — tapi karena seolah semesta memang merancang segalanya agar kita bisa saling bertemu, saling mengenal, dan saling jatuh cinta dengan cara yang paling sempurna.</p>
+
+        <p>Aku ingat pertama kali melihat matamu. Ada sesuatu di sana — kedalaman yang membuatku ingin mengenal lebih jauh, kehangatan yang langsung membuatku merasa aman. Dan aku bersyukur, sejak hari itu, aku tidak pernah berhenti mengagumimu. Setiap hari, kamu selalu menjadi kejutan yang paling indah dalam hidupku.</p>
+
+        <p>Kamu tidak pernah sadar betapa banyak hal kecilmu yang aku cintai. Cara kamu tertawa terlalu keras di hal-hal yang lucu. Cara kamu mengerutkan dahi saat sedang memikirkan sesuatu yang dalam. Cara tanganmu selalu mencari tanganku, seolah itu adalah rumah tempat kamu pulang. Aku mencintai semua itu — tanpa terkecuali, tanpa syarat, dan tanpa batas.</p>
+
+        <p>Ada hari-hari sulit yang kita lalui bersama. Ada air mata, ada kata-kata yang terkadang menyakiti, ada momen ketika kelelahan membuat kita lupa untuk bersyukur satu sama lain. Tapi di setiap badai itu, kamu selalu ada. Tidak pergi. Tidak menyerah. Dan itu, sayangku, adalah bukti cinta yang paling nyata — jauh lebih nyata dari kata-kata mana pun yang bisa aku tulis di sini.</p>
+
+        <p>Aku bermimpi tentang masa depan kita. Aku bermimpi tentang pagi-pagi yang tenang bersamamu, tentang rumah kita yang penuh tawa anak-anak, tentang tangan yang sudah keriput tapi masih saling menggenggam erat. Aku ingin menua bersamamu. Aku ingin kamu menjadi orang pertama yang aku cari setiap kali aku memiliki kabar baik, dan tempat pertama yang aku pulang setiap kali dunia terasa terlalu berat untuk ditanggung sendiri.</p>
+
+        <p>Di hari ulang tahunmu yang paling istimewa ini, aku hanya ingin kamu tahu satu hal: kamu dicintai. Tidak hanya hari ini, tidak hanya ketika kamu sedang sempurna — tapi setiap hari, apa adanya, siapa pun adanya kamu. Kamu adalah hadiah terbesar yang pernah semesta berikan padaku, dan aku tidak akan pernah berhenti bersyukur atas itu.</p>
+
+        <p>Selamat ulang tahun, cinta hidupku.<br/>Kamu adalah rumahku.</p>
+
+        <p class="letter-sig">Dengan seluruh cintaku,<br/><em id="yourName">Istrimu</em></p>
+      </div>
+      <button class="btn-next" onclick="goTo('screen-countdown')">Lihat Perjalanan Kita &darr;</button>
+    </div>
+  </section>
+
+  <!-- ─── SCREEN 4: Countdown ─── -->
+  <section id="screen-countdown" class="screen">
+    <div class="screen-inner countdown-inner">
+      <h2 class="section-title">Perjalanan Kita</h2>
+      <p class="section-sub">Sejak pertama kali aku jatuh cinta padamu...</p>
+      <div class="countdown-grid">
+        <div class="count-card">
+          <span class="count-num" id="cntYears">0</span>
+          <span class="count-label">Tahun</span>
+        </div>
+        <div class="count-card">
+          <span class="count-num" id="cntMonths">0</span>
+          <span class="count-label">Bulan</span>
+        </div>
+        <div class="count-card">
+          <span class="count-num" id="cntDays">0</span>
+          <span class="count-label">Hari</span>
+        </div>
+        <div class="count-card count-card-live">
+          <span class="count-num" id="cntSeconds">0</span>
+          <span class="count-label">Detik</span>
+        </div>
+      </div>
+      <p class="countdown-sub">penuh cinta, tawa, dan kebahagiaan bersama.</p>
+      <button class="btn-next btn-gold" onclick="goTo('screen-finale')">Kejutan Terakhir ✨</button>
+    </div>
+  </section>
+
+  <!-- ─── SCREEN 5: Finale ─── -->
+  <section id="screen-finale" class="screen">
+    <canvas id="fireworksCanvas"></canvas>
+    <div class="finale-inner">
+      <div class="finale-cake">🎂</div>
+      <h1 class="finale-title">Happy Birthday</h1>
+      <h2 class="finale-sayang">Sayang ❤️</h2>
+      <div class="gold-line"></div>
+      <p class="finale-msg">Semoga hidupmu selalu penuh cinta,</p>
+      <p class="finale-msg">kebahagiaan, dan semua hal indah</p>
+      <p class="finale-msg finale-italic">yang kamu pantas dapatkan.</p>
+      <p class="finale-sign">— Dengan cinta yang tak terhingga —</p>
+      <button class="btn-restart" onclick="restartExperience()">↺ &nbsp;Putar dari Awal</button>
+    </div>
+  </section>
+
+  <!-- ─── Floating Music Button ─── -->
+  <button class="music-btn" id="musicBtn" onclick="toggleMusic()" title="Musik Romantis">
+    <span id="iconNote">♪</span>
+    <span id="iconPause" style="display:none">⏸</span>
+    <div class="music-pulse" id="musicPulse"></div>
+  </button>
+
+  <script src="/script.js"></script>
+</body>
+</html>
